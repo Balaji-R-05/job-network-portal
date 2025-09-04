@@ -11,10 +11,10 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Welcome to MyJob')
+    res.send('Welcome to Job & Networking Portal');
 })
 
 app.listen(PORT, () => {
-    console.log("--------- Job & Networking Portal --------");
+    console.log("---------- Job & Networking Portal ----------");
     console.log(`✅ Server running on http://localhost:${PORT}`);
 })
