@@ -1,7 +1,13 @@
-export default function Dashboard() {
+import React from 'react'
+import Navbar from '../../components/Navbar'
+import Jobtitles from '../../components/Jobtitles'
+const Dashboard = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-4xl font-bold text-blue-800">Dashboard</h1>
+    <div>
+      <Navbar />
+      {/* <Jobtitles name="google" img='https://res.cloudinary.com/djbvf02yt/image/upload/v1733408238/omlxxbq6ohgjx5t6went.png'description="lorelksdnfdklfnsdjfnjdsfndsnfldsnfkdnfjdsnfsdnfdslfndjfnsfndfnjdsfnlsnfl" level='indermeidate' location='chennai' apply="www.google.com" learn='www.google.com'/> */}
     </div>
-  );
+  )
 }
+
+export default Dashboard
